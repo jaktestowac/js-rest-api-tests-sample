@@ -4,30 +4,34 @@ GitHub account
 # Steps Easy 
 
 1. ✨ Fork
-1. Effect: repository cloned to your GitHub account
+   - Effect: repository cloned to your GitHub account
 1. ✅ Enable GitHub Actions CI
-1. Go to `Actions` panel
-1. Click `I understand my worflows, go ahead and enable them`
-1. Effect: Actions unlocked but shows `There are no workflow runs yet.`
+   - Go to `Actions` panel
+   - Click `I understand my worflows, go ahead and enable them`
+   - Effect: Actions unlocked but shows `There are no workflow runs yet.`
 1. 📜 Open code editor 
-1. Go to `Code` tab
-1. Click `.` (dot symbol) on your keyboard 
-1. Effect: Visual Studio Code Editor opened with EXPLORER panel on left
+   - Go to `Code` tab
+   - Click `.` (dot symbol) on your keyboard 
+   - Effect: Visual Studio Code Editor opened with EXPLORER panel on left
 1. 🐱‍💻 Start coding 
-1. On left chose `test` folder and click `get-resources.spec.js`
-1. DELETE `.skip` phrase (with dot) from first test (starting in line `3`)
-1. 🐱‍🏍Apply changes to repository 
-1. Use keyboard shortcut `Ctrl + Shift + G` to open SOURCE CONTROL panel on left
-1. Enter changes message `Removed skip from first test`
-1. Click ✔ (tick button) on top menu in SOURCE CONTROL panel
-1. Effect: All changes applied to your repository!
+   - On left chose `test` folder and click `get-resources.spec.js`
+   - DELETE `.skip` phrase (with dot) from first test (starting in line `3`)
+1. 🐱‍🏍Apply changes to repository - creating `commit`
+   - Use keyboard shortcut `Ctrl + Shift + G` to open SOURCE CONTROL panel on left
+   - Enter changes message `Removed skip from first test`
+   - Click ✔ (tick button) on top menu in SOURCE CONTROL panel
+   - Effect: All changes applied to your repository! (this is called `pushed commit`)
 1. 👀 See tests in action
-1. Go to top left hamburger menu and clik it
-1. Use last option `Go to repository`
-1. Effect: Repository opened in new tab
-1. Go to `Actions` panel and click 
-
-
+   - Go to top left hamburger menu and clik it
+   - Use last option `Go to repository`
+   - Effect: Repository opened in new tab
+   - Go to `Actions` panel and click `Removed skip from first test` workflow
+1. 🎉 Effect, test run with success!
+1. 👨‍💻 Your turn: 
+   - Remove skip from next test, 
+   - Make `commit`
+   - See how it fail in `Actions`
+   - ...and then fix it!
 
 
 # Steps Advaced:
