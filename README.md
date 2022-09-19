@@ -13,14 +13,14 @@ GitHub account
    - Go to `Actions` panel
    - Click `I understand my worflows, go ahead and enable them`
    - Effect: Actions unlocked but shows `There are no workflow runs yet.`
-1. 📜 Open code editor 
+1. 💻 Open code editor 
    - Go to `Code` panel
    - Click `.` (dot symbol) on your keyboard 
    - Effect: Visual Studio Code Editor opened with EXPLORER panel on left
-1. 🐱‍💻 Start coding 
+1. 🖐️ Start coding 
    - On left chose `test` folder and click `get-resources.spec.js`
    - DELETE `.skip` phrase (with dot) from first test (starting in line `3`)
-1. 🐱‍🏍Apply changes to repository
+1. 🚀 Apply changes to repository
    - Use keyboard shortcut `Ctrl + Shift + G` to open SOURCE CONTROL panel on left
    - Enter changes message `Removed skip from first test`
    - Click ✔ (tick button) on top menu in SOURCE CONTROL panel
