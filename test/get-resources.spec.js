@@ -1,25 +1,27 @@
 const { request, expect } = require("../../config")
-    
-it("should return status code 200 when asking about anything", async function() {
-    // arrange:
-    const expectedStatusCode = 200
 
-    // act:
-    const response = await request.get("/anything")
+describe("GET /", function() {
+    it("should return status code 200 when asking about anything", async function() {
+        // arrange:
+        const expectedStatusCode = 200
 
-    // assert:
-    expect(response.statusCode).to.be.equal(expectedStatusCode,
-        `For GET /anything we expect status code: ${expectedStatusCode}`)
-})
+        // act:
+        const response = await request.get("/anything")
 
-it.skip("should return status code 200 when asking about json", async function() {
-    // arrange:
-    const expectedStatusCode = 404
+        // assert:
+        expect(response.statusCode).to.be.equal(expectedStatusCode,
+            `For GET /anything we expect status code: ${expectedStatusCode}`)
+        })
 
-    // act:
-    const response = await request.get("/json")
+    it.skip("should return status code 200 when asking about json", async function() {
+        // arrange:
+        const expectedStatusCode = 404
 
-    // assert:
-    expect(response.statusCode).to.be.equal(expectedStatusCode,
-        `For GET /json we expect status code: ${expectedStatusCode}`)
+        // act:
+        const response = await request.get("/json")
+
+        // assert:
+        expect(response.statusCode).to.be.equal(expectedStatusCode,
+            `For GET /json we expect status code: ${expectedStatusCode}`)
+        })
     })

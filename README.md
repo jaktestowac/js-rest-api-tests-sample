@@ -6,7 +6,7 @@ GitHub account
 1. ✨ Fork
 1. Effect: repository cloned to your GitHub account
 1. ✅ Enable GitHub Actions CI
-1. Go to `Actions` tab
+1. Go to `Actions` panel
 1. Click `I understand my worflows, go ahead and enable them`
 1. Effect: Actions unlocked but shows `There are no workflow runs yet.`
 1. 📜 Open code editor 
@@ -20,7 +20,15 @@ GitHub account
 1. Use keyboard shortcut `Ctrl + Shift + G` to open SOURCE CONTROL panel on left
 1. Enter changes message `Removed skip from first test`
 1. Click ✔ (tick button) on top menu in SOURCE CONTROL panel
-1. 
+1. Effect: All changes applied to your repository!
+1. 👀 See tests in action
+1. Go to top left hamburger menu and clik it
+1. Use last option `Go to repository`
+1. Effect: Repository opened in new tab
+1. Go to `Actions` panel and click 
+
+
+
 
 # Steps Advaced:
  
