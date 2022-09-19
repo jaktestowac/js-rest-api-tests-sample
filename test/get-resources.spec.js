@@ -1,4 +1,4 @@
-const { request, expect } = require("../../config")
+const { request, expect } = require("../config")
 
 describe("GET /", function() {
     it("should return status code 200 when asking about anything", async function() {
