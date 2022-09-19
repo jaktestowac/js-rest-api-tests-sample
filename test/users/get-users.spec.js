@@ -1,13 +1,13 @@
 const { request, expect } = require("../../config")
 
 
-describe("GET /users", function() {
+describe("GET /", function() {
     it("should return status code 200 when asking about anything", async function() {
         // arrange:
         const expectedStatusCode = 200
 
         // act:
-        const response = await request.get("/anything/")
+        const response = await request.get("/anything")
 
         // assert:
         expect(response.statusCode).to.be.equal(expectedStatusCode,
@@ -18,7 +18,7 @@ describe("GET /users", function() {
         const expectedStatusCode = 200
 
         // act:
-        const response = await request.get("/json/")
+        const response = await request.get("/json")
 
         // assert:
         expect(response.statusCode).to.be.equal(expectedStatusCode,

@@ -17,7 +17,7 @@ describe("GET /lessons", function() {
             `For GET /users we expect status code: ${expectedStatusCode}`)
         expect(response.body).to.be.deep.equal(expectedBody)
     })
-    it("should return content of lesson 6", async function() {
+    it.skip("should return content of lesson 6", async function() {
         // arrange:
         const expectedStatusCode = 200
         const expectedBody = {
