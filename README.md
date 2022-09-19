@@ -1,5 +1,29 @@
-# Steps:
+# Prerequesties
+GitHub account
 
+# Steps Easy 
+
+1. ✨ Fork
+1. Effect: repository cloned to your GitHub account
+1. ✅ Enable GitHub Actions CI
+1. Go to `Actions` tab
+1. Click `I understand my worflows, go ahead and enable them`
+1. Effect: Actions unlocked but shows `There are no workflow runs yet.`
+1. 📜 Open code editor 
+1. Go to `Code` tab
+1. Click `.` (dot symbol) on your keyboard 
+1. Effect: Visual Studio Code Editor opened with EXPLORER panel on left
+1. 🐱‍💻 Start coding 
+1. On left chose `test` folder and click `get-resources.spec.js`
+1. DELETE `.skip` phrase (with dot) from first test (starting in line `3`)
+1. 🐱‍🏍Apply changes to repository 
+1. Use keyboard shortcut `Ctrl + Shift + G` to open SOURCE CONTROL panel on left
+1. Enter changes message `Removed skip from first test`
+1. Click ✔ (tick button) on top menu in SOURCE CONTROL panel
+1. 
+
+# Steps Advaced:
+ 
 1. create git repo on GitHub
 1. clone it on local drive
 1. copy project to empty cloned directory
