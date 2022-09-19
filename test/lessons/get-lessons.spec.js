@@ -2,7 +2,7 @@ const { request, expect } = require("../../config")
 
 
 describe("GET /lessons", function() {
-    it("should return content of lesson 5", async function() {
+    it.skip("should return content of lesson 5", async function() {
         // arrange:
         const expectedStatusCode = 200
         const expectedBody = {
