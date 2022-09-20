@@ -4,7 +4,7 @@ API call to: https://httpbin.org/#/Anything/get_anything
 # Prerequesties
 **GitHub** account
 
-# 7 Easy Steps to run your first API test! 
+# 7 Easy Steps to run your first Automated API Test! 
 
 1. ✨ Get your own copy of this repository
    - Click `Fork` button on the top right corner
