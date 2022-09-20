@@ -1,3 +1,5 @@
+Start your journey in REST API Automation Tests in 5 minutes 😎
+
 # What we will test:
 API call to: https://httpbin.org/#/Anything/get_anything
 
