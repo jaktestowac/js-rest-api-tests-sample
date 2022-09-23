@@ -1,5 +1,5 @@
 {
-  "name": "rest-api-demo-test",
+  "name": "rest-api-test-min",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "testAll": "mocha './test/**/*.spec.js'"
   },
-  "author": "kkijas",
+  "author": "jaktestowac.pl",
   "license": "ISC",
   "dependencies": {
     "@faker-js/faker": "^6.0.0",
